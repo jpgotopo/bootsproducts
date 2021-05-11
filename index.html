@@ -7,6 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <<link rel="stylesheet" href="css/main.css">
 
     <title>Hello, world!</title>
   </head>
@@ -48,50 +49,129 @@
 
   <!-- Main jumbotron for a primary marketing message or call to action -->
   <div class="jumbotron">
-    <div class="container">
-      <h1 class="display-3">Hoteles</h1>
-      <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-      <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
-    </div>
+    <h1 class="display-3">Hoteles</h1>
+    
   </div>
   <div class="container">
-    <div class="row">
-      <div class="col-md-4">
-        <p><h3>Titulo 1</h3> Producto Natural</p>
-        <button class="btn btn-secondary" type="submit">Info</button>
+      <div class="row">
+        <div class="col-sm-4">
+          <p>
+            <h3>¿Cómo funciona?</h3>
+            <p>Busca los hoteles de acuerdo a tu preferencia</p>
+          </p>
         </div>
-      <div class="col-md-4"><p><h3>Titulo 2</h3> Producto Semi-Natural</p><button class="btn btn-secondary" type="submit">Info</button></div>
-      <div class="col-md-4"><p><h3>Titulo 3</h3> Producto Artificial</p><button class="btn btn-secondary" type="submit">Info</button></div>
+        <div class="col-sm-4">
+          <p>
+            <h3>¿Dónde puedo reservar?</h3>
+            <p>Elige la ciudad qute interesa y luego realiza la reserva con tus datos</p>
+          </p>
+        </div>
+        <div class="col-sm-4">
+          <p>
+            <h3>¿Cómo pago?</h3>
+            <p>Puedes pagar con Tarjeta de Débito, Crédito o Paypal</p>
+          </p>
+        </div>
+      </div>
+      <div class="d-flex flex-wrap">
+      <div class="card-hotel d-flex flex-column justify-content-between">
+        <div>
+          <h2>Hotel Westin</h2>
+          <p>Hotel ubicado en la zona excluiva de San Isidro, con una arquitectura vanguardista, atención especializada, cómodas habitaciones de lujo.</p>
+          
+        </div>
+        <div><button class="btn btn-primary btn-reserva">Ver Detalles &raquo;</button></div>
+      </div>
+      <div class="card-hotel d-flex flex-column justify-content-between ">
+        <div>
+          <h2>Hotel Bolívar</h2>
+          <p>Ubicada en el centro de la ciudad de Lima, con una arquitectura muy propia de la era colonial, pero con habitaciones deslumbrantes, que ofrecen espacio y comodidad.</p>
+        </div>
+        <div><button class="btn btn-primary btn-reserva">Ver Detalles &raquo;</button></div>
+      </div>
+      <div class="card-hotel d-flex flex-column justify-content-between">
+        <div>
+          <h2>Hotel Miraflores</h2>
+          <p>Ubicado en la zona de Miraflores, con habitaciones con vista al mar, acceso a la playa, habitaciones muy comodas y espaciosas, y una atención inigualable.</p>
+        </div>
+        <div><button class="btn btn-primary btn-reserva">Ver Detalles &raquo;</button></div>
+      </div>
+      <div class="card-hotel d-flex flex-column justify-content-between">
+        <div>
+          <h2>Hotel Pardo</h2>
+          <p>Hotel ubicado en la zona excluiva de San Isidro, con una arquitectura vanguardista, atención especializada, cómodas habitaciones de lujo.</p>
+        </div>
+        <div><button class="btn btn-primary btn-reserva">Ver Detalles &raquo;</button></div>
+      </div>
+      <div class="card-hotel d-flex flex-column justify-content-between">
+        <div>
+          <h2>Hotel Escorial</h2>
+          <p>Ubicada en el centro de la ciudad de Lima, con una arquitectura muy propia de la era colonial, pero con habitaciones deslumbrantes, que ofrecen espacio y comodidad.</p>
+        </div>
+        <div><button class="btn btn-primary btn-reserva">Ver Detalles &raquo;</button></div>
+      </div>
+      <div class="card-hotel d-flex flex-column justify-content-between">
+        <div>
+          <h2>Hotel Humboldt</h2>
+          <p>Ubicada en el centro de la ciudad de Lima, con una arquitectura muy propia de la era colonial, pero con habitaciones deslumbrantes, que ofrecen espacio y comodidad.</p>
+        </div>
+        <div><button class="btn btn-primary btn-reserva">Ver Detalles &raquo;</button></div>
+      </div>
+      <div class="card-hotel d-flex flex-column justify-content-between">
+        <div>
+          <h2>Hotel Madeira</h2>
+          <p>Ubicada en el centro de la ciudad de Lima, con una arquitectura muy propia de la era colonial, pero con habitaciones deslumbrantes, que ofrecen espacio y comodidad.</p>
+        </div>
+        <div><button class="btn btn-primary btn-reserva">Ver Detalles &raquo;</button></div>
+      </div>
     </div>
-    
-    
-    
+      
   </div>
+ 
+    <hr>
+  
+</main>
+<footer>
   <div class="container">
-    <!-- Example row of columns -->
     <div class="row">
-      <div class="col-md-4">
-        <h2>Heading</h2>
-        <p>Will you do the same for me? It's time to face the music I'm no longer your muse. Heard it's beautiful, be the judge and my girls gonna take a vote. I can feel a phoenix inside of me. Heaven is jealous of our love, angels are crying from up above. Yeah, you take me to utopia.</p>
-        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+      <div class="col-sm-4 d-flex flex-column">
+        <div class="row social">
+          <div class="rrss"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+          <div class="titulors"><a href="www.facebook.com">GuiaHoteles</a> </div>
+        </div>
+        <div class="row social">
+          <div class="rrss"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+          <div class="titulors"><a href="www.instagram.com">@guia-hoteles</a></div>
+        </div>    
+           <div class="row social">
+              <div class="rrss"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+              <div class="titulors"><a href="www.instagram.com">@guiahoteles</a></div>
+           </div> 
       </div>
-      <div class="col-md-4">
-        <h2>Heading</h2>
-        <p>Standing on the frontline when the bombs start to fall. Heaven is jealous of our love, angels are crying from up above. Can't replace you with a million rings. Boy, when you're with me I'll give you a taste. There’s no going back. Before you met me I was alright but things were kinda heavy. Heavy is the head that wears the crown.</p>
-        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+      <div class="col-sm-4">
+        <div class="row social">
+          <div class="rrss"><i class="fa fa-globe" aria-hidden="true"></i></div>
+          <div class="titulors"><a href="www.guiahoteles.com">www.guiahoteles.com</a></div>
+          <address>
+            Av. Alfredo Benavides 5177, Lima, Perú
+            +51 944514465
+            info@guiahoteles.com
+          </address>
+        </div>
+        <div class="row social">
+          <div class="rrss"><i class="fa fa-hotel"></i></div>
+          <div class="info">Somos la Guía especializada de Hoteles que pone a tu alcance la habtación a tu medida</div>
+        </div> 
       </div>
-      <div class="col-md-4">
-        <h2>Heading</h2>
-        <p>Playing ping pong all night long, everything's all neon and hazy. Yeah, she's so in demand. She's sweet as pie but if you break her heart. But down to earth. It's time to face the music I'm no longer your muse. I guess that I forgot I had a choice.</p>
-        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+      <div class="col-sm-4 d-flex flex-column align-items-end">
+        <a href="www.guiahoteles.com/aboutus">Nosotros</a> 
+        <a href="www.guiahoteles.com/prices">Precios</a> 
+        <a href="www.guiahoteles.com/terms">Términos y Condiciones</a> 
+        <a href="www.guiahoteles.com/contacts">Contactos</a> 
       </div>
     </div>
-
-    <hr>
-
-  </div> <!-- /container -->
-
-</main>
+  </div>
+</footer>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
@@ -99,6 +179,8 @@
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/popper.js/dist/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/27a8da6c2e.js"></script>
+
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
