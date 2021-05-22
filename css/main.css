@@ -47,3 +47,13 @@ address{
     color: #ede7f6;
     padding-bottom:25px;
 }
+
+.footer-address-icon{
+    padding-right: 10px;
+    color:#ffb300;
+}
+
+hr {
+    background-color: #4527a0;
+    height: 2px;
+}
