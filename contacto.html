@@ -19,16 +19,15 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class= "navbar-nav mr-auto">
         <li class="nav-item "><a class="nav-link" href="./index.html">Inicio</a></li>
-        <li class="nav-item active "><a class="nav-link" href="./about.html">Nosotros</a></li>
+        <li class="nav-item "><a class="nav-link" href="./about.html">Nosotros</a></li>
         <li class="nav-item"><a class="nav-link" href="./products.html">Productos</a></li>
         <li class="nav-item"><a class="nav-link" href="#">Términos y Condiciones</a></li>
-        <li class="nav-item "><a class="nav-link" href="./contacto.html">Contactos</a></li>
+        <li class="nav-item active"><a class="nav-link" href="./contacto.html">Contactos</a></li>
       </ul>
     </nav>
     
       
     </div>
-
     <main role="main">
 
       <div class="jumbotron">
@@ -36,16 +35,62 @@
         
       </div>
       <div class="container">
-        <nav aria-label="breadcrumb">
-          <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Nosotros </li>
-          </ol>
-        </nav>
-        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at ullamcorper massa. Duis tincidunt faucibus dui, ac lacinia sem bibendum a. Quisque vitae ullamcorper eros. Suspendisse cursus viverra arcu, a vulputate quam condimentum in. In eu ex id sem mattis tincidunt. Nulla tristique id lacus sit amet cursus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus condimentum arcu auctor libero malesuada, nec cursus est venenatis. Pellentesque iaculis purus lacus, id posuere elit luctus at. Nunc suscipit magna sit amet metus euismod, ac mollis augue aliquam. Phasellus rutrum, tortor sed bibendum consequat, mi lectus dignissim lacus, sed interdum enim ex in orci.</span>
-      <div>
-          
-      
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item active" aria-current="page">Home</li>
+            </ol>
+          </nav>
+          <h1>Déjame tu comentario</h1>
+          <form>
+            <div class="form-row">
+              <div class="form-group col-sm-6">
+                <label for="nombre">Nombre</label>
+                <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
+              </div>
+              <div class="form-group col-sm-6">
+                <label for="apellido">Apellido</label>
+                <input type="text" class="form-control" id="apellido" placeholder="Ingrese su Apellido">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" class="form-control" placeholder="Ingrese su Email">
+              <small id="helpId" class="text-muted">Help text</small>
+            </div>
+            <div class="form-row">
+              <div class="form-group col-sm-9">
+                <label for="domicilio">Domiciio</label>
+                <input type="text" class="form-control" id="domicilio" placeholder="Ingrese su domicilio">
+              </div>
+              <div class="form-group col-sm-3">
+                <label for="provincia">Provincia</label>
+                <select id="provincia" class="form-control">
+                  <option selected>Lima</option>
+                  <option>Huancayo</option>
+                  <option>Cajamarca</option>
+                  <option>Callao</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="comentario">Comentario</label>
+              <textarea id="comentario" class="form-control" rows="10"></textarea>
+            </div>
+            <div class="form-group">
+              <div class="form-check">
+                <label class="form-check-label" for="gridCheck">
+                  <input type="checkbox" class="form-check-input" name="" id="">
+                  Quiero que me contacten
+                </label>
+              </div>
+              
+            </div>
+            <button type="submit" class="btn btn-outline-primary">Enviar</button>
+          </form>
+        </div>
+        
+        <hr>
+      </div>
     </main>
     <footer>
       <div class="container">
