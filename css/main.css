@@ -57,3 +57,7 @@ hr {
     background-color: #4527a0;
     height: 2px;
 }
+
+.tab-content{
+    padding-top: 10px;
+}
