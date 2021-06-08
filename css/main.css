@@ -36,7 +36,7 @@ footer {
     flex-direction: flex-column; 
     
 }
-a {
+.navbar a {
     color:#ede7f6;
 }
 address{
